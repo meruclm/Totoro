@@ -1,0 +1,92 @@
+#back{
+    text-align: center;
+    background-image: url("main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: 'Rouge Script', cursive;}
+.main{
+    background-color: snow;
+    opacity: 0.9;
+    height: auto;}
+.container{
+    margin-top: 20px;
+    letter-spacing:1px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    opacity: 0.9;}
+h1{
+    color: black ; 
+    font-size: 80px;
+    text-shadow: 1px 1px 2px #082b34;
+    padding-top: 50px;
+    padding-bottom: 50px;}
+.textMain{
+    padding: 40px ;
+    padding-top: 10px;
+    font-size: 20px;}
+article{
+    background-color: black;
+    opacity: 0.9;
+    color: beige;
+    height: auto;
+    font-size: 15px;}
+* { box-sizing: border-box; }
+.gridBody {
+    background-color: snow;
+    opacity: 0.9;
+    color: #444;
+    font-size: 18px}
+.grid {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));}
+.grid > * {
+    border: 5px;
+    border-left: rgb(114, 187, 10);
+    border-style: inset;
+    margin: 10px;
+    padding: 10px 20px;
+    color: black;}
+.anime {
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;}
+.row-rok {width: 10%;}
+.row-nazev {width: 50%;}
+.row-rezie {width: 20%;}
+.row-scenarista {width: 20%;}
+table, th, td {
+    padding: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;}
+.obchody {
+    display: flex;
+    flex-wrap: wrap;}
+.obchody > * {
+    flex: 1 1 230px;
+    border-bottom: 4px solid brown;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(114, 187, 10););
+    color: #fff;}
+@media (min-width: 810px) and (max-width: 1039.98px) 
+{.main {margin: 300px 160px 20px 160px;}
+article {margin: 30px 160px 20px 160px;}
+.gridBody {margin: 300px 160px 20px 160px;}
+.anime {margin: 30px 160px 20px 160px;}}
+@media (min-width: 1040px) and (max-width: 1199.98px) 
+{.main {margin: 300px 160px 20px 160px;}
+article {margin: 30px 160px 20px 160px;}
+.gridBody {margin: 300px 160px 20px 160px;}
+.anime {margin: 30px 160px 20px 160px;}}
+@media (min-width: 1200px) 
+{.main {margin: 300px 160px 20px 160px;}
+article {margin: 30px 160px 20px 160px;}
+.gridBody {margin: 300px 160px 20px 160px;}
+.anime {margin: 30px 160px 20px 160px;}}
